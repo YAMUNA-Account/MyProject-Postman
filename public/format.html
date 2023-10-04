@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body >
+        <section  class="gradient-background2" >
+        <h1 class="titleFormat">HERE YOU GO!! </h1>
+        <div class="containerFormat">
+            <div class="form">
+              <form class="validation" novalidate="">
+                <div class="dateOfDelivery">
+                    <label for="deliveryDate" class="form-label">DATE OF PARCEL DELIVERED</label>
+                    <input type="text" class="form-control" id="date" placeholder="dd/mm/yyyy" value="" required="">
+                </div>
+            </br>
+                <div class="number">
+                    <label for="number" class="form-label">PARCEL NUMBER</label>
+                    <input type="text" class="form-control" id="date" placeholder="12345" value="" required="">
+                </div>
+            </br>
+                <div class="Address">
+                    <label for="Address" class="form-label">ADDRESS</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="No.x , yyyy st,zzzz nagar." value="" required="">
+                    
+                </div>
+            </br>
+                <div class="col-md-5">
+                    <label for="country" class="form-label">FEEDBACK</label>
+                    <select class="form-select" id="country" required="">
+                      <option value="">CHOOSE...</option>
+                      <option>VERY GOOD</option>
+                      <option> SATISFACTORY</option>
+                      <option>BAD</option>
+                      <option>WORST</option>
+
+                    </select>
+                </div>
+            </br>
+                <div class="col-md-6">
+                    <label for="cc-number" class="form-label">IF WORST OR BAD, WHY? OR ANYOTHER SUGGESTIONS?</label>
+                    <input type="text" class="form-control" id="cc-number" placeholder="Your Suggestion" required="">
+                </div>
+            </br>
+            <a href="#" onclick="alert('Here your feedback is noted!!!!');"><button class="btn" type="submit">SUBMIT</button></a>
+            
+           </form>
+        </div>
+        </div>
+    </section>
+    </body> 
+</html>

@@ -1,0 +1,99 @@
+.gradient-background {
+    height: 1000px;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 100% 100%;
+    animation: gradient-animation 10s ease infinite;
+    background-attachment: scroll;
+   
+  }
+  .image{
+    position: relative;
+    top: 30px;
+    left:400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+  }
+  .gradient-background1 {
+    height: 1000px;
+    background: linear-gradient(300deg,rgb(229, 15, 168),rgba(168, 0, 194, 0.95));
+    background-size: 100% 100%;
+    animation: gradient-animation 10s ease infinite;
+    background-attachment: scroll;
+   
+  }
+  .gradient-background2{
+   position: absolute;
+   width: 2000px;
+    height: 1000px;
+    background: linear-gradient(300deg,rgb(15, 19, 229),rgba(79, 193, 241, 0.95));
+    background-size: 100% 100%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  .btn{
+    background-color: black;
+    color: aliceblue;
+  }
+  .validation{
+    max-height: 700px;
+    max-width: 700px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.containerFormat{
+    position: relative;
+    top:150px;
+    left:500px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.titleFormat{
+    position: relative;
+    top:10px;
+    left:800px;
+    margin-top:70px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+li{
+    position: relative;
+    top:80px;
+    left:550px;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.titleIndex{
+  
+    display: flex;
+    
+    justify-content: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+
+}
+.titleIndex1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
